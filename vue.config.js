@@ -6,7 +6,6 @@ const { resolve } = require('path')
 
 module.exports = {
     publicPath: isProd ? '/vue-drag-demo/' : './',
-    outputDir: 'docs',
     configureWebpack: () => {
         if (isProd) {
             return {
