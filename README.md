@@ -1,5 +1,6 @@
 一个低代码平台的前端部分，靠拖拉拽生成页面。
-
+## 预览
+https://zengqingxiao.github.io/vue-drag-demo/
 ## 功能点
 1. 编辑器
 2. 自定义组件
