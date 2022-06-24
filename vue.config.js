@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const { resolve } = require('path')
 
 module.exports = {
-    publicPath: isProd ? '/vue-drag-demo/' : './',
+    publicPath: isProd ? '/vue-drag-demo/dist' : './',
     configureWebpack: () => {
         if (isProd) {
             return {
